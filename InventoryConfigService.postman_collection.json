@@ -1,669 +1,798 @@
 {
-	"id": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-	"name": "InventoryConfigService",
-	"description": "",
-	"order": [
-		"3a259583-9c73-121d-63a6-17dc352cbff7",
-		"9441a1e5-fc03-8e06-68c9-51fb958a4028",
-		"1383d9b6-bfd5-57b2-9219-5a7a6cfc7944",
-		"191d42f4-6d69-ee0c-9064-f4ac50eb68c2",
-		"a110e744-3240-3b83-2107-eb95d7de314f",
-		"935f7198-44d8-a9bd-c35a-55f79392ec64",
-		"d2eedeae-1d7a-40e9-0a40-bd37e58eef39",
-		"ed487173-ac06-1b28-f0d2-7fb1f2f5ebf3",
-		"bfba6d35-4bcc-199c-0dc0-f3a056ba913a",
-		"e6ea7565-45f2-7af6-b31f-09b7f9a69274",
-		"e42ed77c-fc4e-85fc-af34-ad3410fb6330",
-		"1c3a4023-e82d-2861-8648-a3d082e02318",
-		"050464ba-ad70-be32-b96e-90176d72ba61",
-		"11fd5c9f-c939-baa3-90b5-89d8144c7415",
-		"4aa5a7dc-7469-decd-2d5c-e1b7e0ba9352",
-		"7c4880fd-5a6c-8e96-4079-0705c402ad05",
-		"d2bbd5f4-62a1-f38c-08bd-8f41fd03e008",
-		"e55fe835-566e-c3f2-79c3-c72db0278aaa",
-		"1327080a-1627-881f-bd64-3b1cf3e8b4c9",
-		"d321cb52-7190-db6d-00f3-362f9a929369",
-		"961f7257-073e-7add-d9f3-b9002f89fe65",
-		"81b7535b-a25c-c9af-9a2b-363d85fa73de",
-		"7c4789ef-35a4-6871-a114-edbe87318e3c",
-		"5bfbbc31-d869-f888-9283-4113043cc85b",
-		"adb4e10c-f39d-1980-2ff8-de181d4aec6a",
-		"09fc2060-641c-ff08-0f4a-ed746d15d6cb",
-		"92ac6c26-096f-0089-544a-84bec32852e1",
-		"4ee29592-d106-980e-fb35-8ec31a3e0da2",
-		"9713a9bc-2af9-194b-0968-f8afabfd00b4",
-		"83b4d740-88bd-4724-3731-b116cefd882b",
-		"efcc8292-4504-71ec-ac2b-96f5f838a1e8",
-		"c872c206-473b-f537-5a92-1b6751979be0"
-	],
-	"folders": [],
-	"timestamp": 1492787403226,
-	"owner": "131609",
-	"public": false,
-	"requests": [
+	"info": {
+		"name": "InventoryConfigService",
+		"_postman_id": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
 		{
-			"id": "050464ba-ad70-be32-b96e-90176d72ba61",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodeGroups/NodeGroupInt02",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1501597947061,
-			"name": "getNodeGroup",
-			"description": "get node group by inventory org and node group id",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "09fc2060-641c-ff08-0f4a-ed746d15d6cb",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodes/NodeInt001",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "DELETE",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1504625652982,
-			"name": "deleteNode",
-			"description": "deletes the specified node",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "11fd5c9f-c939-baa3-90b5-89d8144c7415",
-			"headers": "",
-			"url": "{{vip_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodeGroups",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511380058368,
-			"name": "getNodeGroups",
-			"description": "get all node groups for an inventory org",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "1327080a-1627-881f-bd64-3b1cf3e8b4c9",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/unitOfMeasures",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "getUnitOfMeasures",
-			"description": "gets all unit of measure",
-			"descriptionFormat": "html",
-			"time": 1495726473388,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "1383d9b6-bfd5-57b2-9219-5a7a6cfc7944",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{vip_inventory_config_service}}/productClasses/GOOD",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511379994180,
-			"name": "createOrUpdateProductClass",
-			"description": "creates new product class or updates if already existing",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "{\r\n    \"productClassId\" : \"GOOD\",\r\n    \"description\" : \"GOOD\"\r\n}"
-		},
-		{
-			"id": "191d42f4-6d69-ee0c-9064-f4ac50eb68c2",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodes/GSI-DC227",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1510343931069,
-			"name": "createOrUpdateNode",
-			"description": "creates new node or updates existing",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "{\r\n    \"inventoryOrganizationId\" : \"TMSNA_INV_ORG\",\r\n    \"nodeId\" : \"GSI-DC227\",\r\n    \"nodeTypeId\" : \"DC\",\r\n    \"description\" : \"GSI Richwood DLx\",\r\n    \"nodePriority\" : 1,\r\n    \"address\" : {\r\n        \"line1\" : \"40 Logistics Blvd\",\r\n        \"city\" : \"Walton\",\r\n        \"mainDivision\" : \"KY\",\r\n        \"postalCode\" : \"41094\",\r\n        \"countryCode\" : \"US\"\r\n    },\r\n    \"latitude\" : 38.9021286,\r\n    \"longitude\" : -84.631767,\r\n    \"localeCode\" : \"en_US\",\r\n    \"timeZoneId\" : \"US/Eastern\",\r\n    \"eligibleFulfillmentTypeIds\" : [\r\n        \"SHIP_TO_HOME\",\r\n        \"SHIP_TO_STORE\"\r\n    ],\r\n    \"nodeRejectedSupplyAction\" : \"NO_HOLD\",\r\n    \"receiptProcessingDays\" : 1,\r\n    \"minShipmentProcessingDays\" : 2,\r\n    \"maxShipmentProcessingDays\" : 3,\r\n    \"isInfinite\" : false,\r\n    \"isActiveForAvailability\" : true,\r\n    \"isShipNode\" : true,\r\n    \"isGiftWrapAllowed\" : true,\r\n    \"isAssociateDeliveryEligible\" : false\r\n}"
-		},
-		{
-			"id": "1c3a4023-e82d-2861-8648-a3d082e02318",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodes/NodeInt007",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1505233992134,
-			"name": "getNode",
-			"description": "get node by inventory org and node id",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "3a259583-9c73-121d-63a6-17dc352cbff7",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{vip_inventory_config_service}}/nodeTypes/GSI_WHSE",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511379943709,
 			"name": "createOrUpdateNodeType",
-			"description": "Creates or updates (if nodeTypeId doesn't exist) node type.",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "{\r\n    \"nodeTypeId\" : \"GSI_WHSE\",\r\n    \"description\" : \"Description for node type 1\"\r\n}"
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nodeTypeId\" : \"GSI_WHSE\",\r\n    \"description\" : \"Description for node type 1\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/nodeTypes/GSI_WHSE",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"nodeTypes",
+						"GSI_WHSE"
+					]
+				},
+				"description": "Creates or updates (if nodeTypeId doesn't exist) node type."
+			},
+			"response": []
 		},
 		{
-			"id": "4aa5a7dc-7469-decd-2d5c-e1b7e0ba9352",
-			"headers": "",
-			"url": "{{vip_inventory_config_service}}/nodeTypes",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511380091260,
-			"name": "getNodeTypes",
-			"description": "Gets all node types.",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "4ee29592-d106-980e-fb35-8ec31a3e0da2",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/stores/RITUS",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "deleteStore",
-			"description": "deletes the specified store if it's unused",
-			"descriptionFormat": "html",
-			"time": 1494360683659,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "5bfbbc31-d869-f888-9283-4113043cc85b",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/nodeTypes/RIT_WHSE",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "DELETE",
-			"data": null,
-			"dataMode": "params",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1493066090297,
-			"name": "deleteNodeType",
-			"description": "Deletes unused nodeType by ID",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "7c4789ef-35a4-6871-a114-edbe87318e3c",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/fulfillmentTypes",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "getFulfillmentTypes",
-			"description": "gets all fulfillment types",
-			"descriptionFormat": "html",
-			"time": 1501593946651,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "7c4880fd-5a6c-8e96-4079-0705c402ad05",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{vip_inventory_config_service}}/stores",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511382575531,
-			"name": "getStores",
-			"description": "get all stores",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "81b7535b-a25c-c9af-9a2b-363d85fa73de",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/timeZoneIds",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1506350785167,
-			"name": "getZoneIds",
-			"description": "returns all zone id's",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "83b4d740-88bd-4724-3731-b116cefd882b",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/unitOfMeasures/RITEACH",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "deleteUnitOfMeasure",
-			"description": "deletes specified unit of measure",
-			"descriptionFormat": "html",
-			"time": 1500052907211,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "92ac6c26-096f-0089-544a-84bec32852e1",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG/nodeGroups/RIT_NODE_GROUP",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "deleteNodeGroup",
-			"description": "deletes a node group or groups",
-			"descriptionFormat": "html",
-			"time": 1493754374979,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "935f7198-44d8-a9bd-c35a-55f79392ec64",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodeGroups/nodeGroup1",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1501870221427,
-			"name": "createOrUpdateNodeGroup",
-			"description": "creates new node group or updates if existing",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "    {\n      \"inventoryOrganizationId\": \"TMSNA_INV_ORG\",\n      \"nodeGroupId\": \"nodeGroup1\",\n      \"description\": \"description1\",\n      \"nodes\": [\n        {\n          \"nodeId\": \"node1\",\n          \"priority\": 1,\n          \"startDate\": \"2017-01-01\",\n          \"endDate\": \"2020-01-01\",\n          \"isActive\": true\n        },\n        {\n          \"nodeId\": \"node2\",\n          \"priority\": 5,\n          \"startDate\": \"2017-01-01\",\n          \"endDate\": \"2020-01-01\",\n          \"isActive\": true\n        },\n        {\n          \"nodeId\": \"TMS_NA-DC003\",\n          \"priority\": 9,\n          \"startDate\": \"2017-01-01\",\n          \"endDate\": \"2020-01-01\",\n          \"isActive\": true\n        }\n      ]\n    }\n  ]\n}"
-		},
-		{
-			"id": "9441a1e5-fc03-8e06-68c9-51fb958a4028",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{vip_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "PUT",
-			"data": [],
-			"dataMode": "raw",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511379985324,
 			"name": "createOrUpdateInventoryOrg",
-			"description": "creates or updates and existing inventory org",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "    {\n      \"inventoryOrganizationId\": \"TMSNA_INV_ORG\",\n      \"inventoryOrganizationName\": \"TMSNA Inventory Organization\",\n      \"defaultNodeGroupId\": \"nodeGroup1\",\n      \"defaultShippingCalendarId\": \"shippingCalendar1\",\n      \"defaultProductClassId\": \"GOOD\",\n      \"defaultUnitOfMeasureId\": \"EACH\",\n      \"nodeRejectedSupplyAction\": \"NO_HOLD\",\n      \"isActiveForAvailability\": true\n    }"
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n      \"inventoryOrganizationId\": \"TMSNA_INV_ORG\",\n      \"inventoryOrganizationName\": \"TMSNA Inventory Organization\",\n      \"defaultNodeGroupId\": \"nodeGroup1\",\n      \"defaultShippingCalendarId\": \"shippingCalendar1\",\n      \"defaultProductClassId\": \"GOOD\",\n      \"defaultUnitOfMeasureId\": \"EACH\",\n      \"nodeRejectedSupplyAction\": \"NO_HOLD\",\n      \"isActiveForAvailability\": true\n    }"
+				},
+				"url": {
+					"raw": "{{vip_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG",
+					"host": [
+						"{{vip_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG"
+					]
+				},
+				"description": "creates or updates and existing inventory org"
+			},
+			"response": []
 		},
 		{
-			"id": "961f7257-073e-7add-d9f3-b9002f89fe65",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/calendars/shippingCalendarIntegration01?fromDate=2017-01-01&toDate=2017-12-31",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "getCalendar",
-			"description": "Gets a calendars details within specified date range",
-			"descriptionFormat": "html",
-			"time": 1502109852185,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
+			"name": "createOrUpdateProductClass",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productClassId\" : \"GOOD\",\r\n    \"description\" : \"GOOD\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/productClasses/GOOD",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"productClasses",
+						"GOOD"
+					]
+				},
+				"description": "creates new product class or updates if already existing"
+			},
+			"response": []
 		},
 		{
-			"id": "9713a9bc-2af9-194b-0968-f8afabfd00b4",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/productClasses/RITGOOD",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "DELETE",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1500052840415,
-			"name": "deleteProductClass",
-			"description": "deletes specified product class",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
+			"name": "createOrUpdateNode",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inventoryOrganizationId\" : \"TMSNA_INV_ORG\",\r\n    \"nodeId\" : \"GSI-DC227\",\r\n    \"nodeTypeId\" : \"DC\",\r\n    \"description\" : \"GSI Richwood DLx\",\r\n    \"nodePriority\" : 1,\r\n    \"address\" : {\r\n        \"line1\" : \"40 Logistics Blvd\",\r\n        \"city\" : \"Walton\",\r\n        \"mainDivision\" : \"KY\",\r\n        \"postalCode\" : \"41094\",\r\n        \"countryCode\" : \"US\"\r\n    },\r\n    \"latitude\" : 38.9021286,\r\n    \"longitude\" : -84.631767,\r\n    \"localeCode\" : \"en_US\",\r\n    \"timeZoneId\" : \"US/Eastern\",\r\n    \"eligibleFulfillmentTypeIds\" : [\r\n        \"SHIP_TO_HOME\",\r\n        \"SHIP_TO_STORE\"\r\n    ],\r\n    \"nodeRejectedSupplyAction\" : \"NO_HOLD\",\r\n    \"receiptProcessingDays\" : 1,\r\n    \"minShipmentProcessingDays\" : 2,\r\n    \"maxShipmentProcessingDays\" : 3,\r\n    \"isInfinite\" : false,\r\n    \"isActiveForAvailability\" : true,\r\n    \"isShipNode\" : true,\r\n    \"isGiftWrapAllowed\" : true,\r\n    \"isAssociateDeliveryEligible\" : false\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodes/GSI-DC227",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"nodes",
+						"GSI-DC227"
+					]
+				},
+				"description": "creates new node or updates existing"
+			},
+			"response": []
 		},
 		{
-			"id": "a110e744-3240-3b83-2107-eb95d7de314f",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/unitOfMeasures/RITEACH",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "PUT",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": [],
-			"dataMode": "raw",
 			"name": "createOrUpdateUnitOfMeasure",
-			"description": "creates new unit of measure or unpdates existing",
-			"descriptionFormat": "html",
-			"time": 1495742271160,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\r\n    \"unitOfMeasureId\" : \"RITEACH\",\r\n    \"unitOfMeasureType\" : \"QUANTITY\",\r\n    \"description\" : \"Test\"\r\n}"
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"unitOfMeasureId\" : \"RITEACH\",\r\n    \"unitOfMeasureType\" : \"QUANTITY\",\r\n    \"description\" : \"Test\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/unitOfMeasures/RITEACH",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"unitOfMeasures",
+						"RITEACH"
+					]
+				},
+				"description": "creates new unit of measure or unpdates existing"
+			},
+			"response": []
 		},
 		{
-			"id": "adb4e10c-f39d-1980-2ff8-de181d4aec6a",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "DELETE",
-			"data": null,
-			"dataMode": "params",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1493147829278,
-			"name": "deleteInventoryOrganization",
-			"description": "deletes the specified inventory organization if not in use",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
+			"name": "createOrUpdateNodeGroup",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n      \"inventoryOrganizationId\": \"TMSNA_INV_ORG\",\n      \"nodeGroupId\": \"nodeGroup1\",\n      \"description\": \"description1\",\n      \"nodes\": [\n        {\n          \"nodeId\": \"node1\",\n          \"priority\": 1,\n          \"startDate\": \"2017-01-01\",\n          \"endDate\": \"2020-01-01\",\n          \"isActive\": true\n        },\n        {\n          \"nodeId\": \"node2\",\n          \"priority\": 5,\n          \"startDate\": \"2017-01-01\",\n          \"endDate\": \"2020-01-01\",\n          \"isActive\": true\n        },\n        {\n          \"nodeId\": \"TMS_NA-DC003\",\n          \"priority\": 9,\n          \"startDate\": \"2017-01-01\",\n          \"endDate\": \"2020-01-01\",\n          \"isActive\": true\n        }\n      ]\n    }\n  ]\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodeGroups/nodeGroup1",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"nodeGroups",
+						"nodeGroup1"
+					]
+				},
+				"description": "creates new node group or updates if existing"
+			},
+			"response": []
 		},
 		{
-			"id": "bfba6d35-4bcc-199c-0dc0-f3a056ba913a",
-			"headers": "Content-Type: application/xml\nAccept: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG/nodeGroups/RIT_NODE_GRP/nodes",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1494344220637,
-			"name": "XML searchNodesByNodeGroup",
-			"description": "searches nodes by node group using XML formatted request",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "<NodeGroupNodeQuery>\r\n   <NodeGroupId>RIT_NODE_GRP</NodeGroupId>\r\n   <NodeTypeIds>\r\n      <NodeTypeId/>\r\n   </NodeTypeIds>\r\n   <NodeIds>\r\n      <NodeId/>\r\n   </NodeIds>\r\n</NodeGroupNodeQuery>"
-		},
-		{
-			"id": "c872c206-473b-f537-5a92-1b6751979be0",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/stores/TMSUS",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "PUT",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": [],
-			"dataMode": "raw",
 			"name": "createOrUpdateStore",
-			"description": "Creates new store or updates existing",
-			"descriptionFormat": "html",
-			"time": 1509550347884,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\r\n      \"storeId\": \"TMSUS\",\r\n      \"storeName\": \"The Model Store - US\",\r\n      \"clientId\": \"TMSNA\",\r\n      \"inventoryOrganizationId\": \"TMSNA_INV_ORG\",\r\n      \"defaultFulfillmentTypeId\": \"SHIP_TO_HOME\",\r\n      \"defaultLatestShipDateDays\": 60\r\n}"
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"storeId\": \"TMSUS\",\r\n      \"storeName\": \"The Model Store - US\",\r\n      \"clientId\": \"TMSNA\",\r\n      \"inventoryOrganizationId\": \"TMSNA_INV_ORG\",\r\n      \"defaultFulfillmentTypeId\": \"SHIP_TO_HOME\",\r\n      \"defaultLatestShipDateDays\": 60\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/stores/TMSUS",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"stores",
+						"TMSUS"
+					]
+				},
+				"description": "Creates new store or updates existing"
+			},
+			"response": []
 		},
 		{
-			"id": "d2bbd5f4-62a1-f38c-08bd-8f41fd03e008",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/stores/RITUS",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "getStore",
-			"description": "get a store by storeId",
-			"descriptionFormat": "html",
-			"time": 1494360944648,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "d2eedeae-1d7a-40e9-0a40-bd37e58eef39",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG/nodeGroups/RIT_NODE_GRP/nodes",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1493994906796,
 			"name": "searchNodesByNodeGroup",
-			"description": "find nodes within a node group",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "{\r\n    \"nodeGroupId\" : \"RIT_NODE_GRP\",\r\n    \"nodeTypeIds\" : [\r\n        \"RIT_WHSE\",\r\n        \"RETAIL_STORE\"\r\n    ],\r\n    \"nodeIds\" : [\r\n        \"RIT_Node\",\r\n        \"RIT_Node2\",\r\n        \"RIT_Node3\"\r\n    ]\r\n}"
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nodeGroupId\" : \"RIT_NODE_GRP\",\r\n    \"nodeTypeIds\" : [\r\n        \"RIT_WHSE\",\r\n        \"RETAIL_STORE\"\r\n    ],\r\n    \"nodeIds\" : [\r\n        \"RIT_Node\",\r\n        \"RIT_Node2\",\r\n        \"RIT_Node3\"\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG/nodeGroups/RIT_NODE_GRP/nodes",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"RIT_INV_ORG",
+						"nodeGroups",
+						"RIT_NODE_GRP",
+						"nodes"
+					]
+				},
+				"description": "find nodes within a node group"
+			},
+			"response": []
 		},
 		{
-			"id": "d321cb52-7190-db6d-00f3-362f9a929369",
-			"headers": "",
-			"url": "{{vip_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/calendars",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511380004893,
-			"name": "getCalendars",
-			"description": "get all calendars for an inventory org",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "e42ed77c-fc4e-85fc-af34-ad3410fb6330",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{vip_inventory_config_service}}/inventoryOrganizations",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1511380024910,
-			"name": "getInventoryOrganizations",
-			"description": "returns all inventory orgs",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "e55fe835-566e-c3f2-79c3-c72db0278aaa",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/productClasses",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"data": null,
-			"dataMode": "params",
-			"name": "getProductClasses",
-			"description": "gets all product classes",
-			"descriptionFormat": "html",
-			"time": 1495726390063,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "e6ea7565-45f2-7af6-b31f-09b7f9a69274",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "GET",
-			"data": null,
-			"dataMode": "params",
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1493306063278,
-			"name": "getInventoryOrganization",
-			"description": "returns matching inventory org",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
-		},
-		{
-			"id": "ed487173-ac06-1b28-f0d2-7fb1f2f5ebf3",
-			"headers": "Content-Type: application/json\n",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/{{inv_org}}/node/search",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "POST",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1510932169163,
 			"name": "searchNodesByInventoryOrg",
-			"description": "find nodes within inventory org",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": [],
-			"rawModeData": "{\r\n    \"inventoryOrganizationId\" : \"{{inv_org}}\"\r\n}"
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inventoryOrganizationId\" : \"{{inv_org}}\"\r\n}"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/{{inv_org}}/node/search",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"{{inv_org}}",
+						"node",
+						"search"
+					]
+				},
+				"description": "find nodes within inventory org"
+			},
+			"response": []
 		},
 		{
-			"id": "efcc8292-4504-71ec-ac2b-96f5f838a1e8",
-			"headers": "",
-			"url": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/calendars/shippingCalendarInt01",
-			"preRequestScript": null,
-			"pathVariables": {},
-			"method": "DELETE",
-			"data": null,
-			"dataMode": "params",
-			"version": 2,
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"time": 1510932246065,
+			"name": "XML searchNodesByNodeGroup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/xml"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<NodeGroupNodeQuery>\r\n   <NodeGroupId>RIT_NODE_GRP</NodeGroupId>\r\n   <NodeTypeIds>\r\n      <NodeTypeId/>\r\n   </NodeTypeIds>\r\n   <NodeIds>\r\n      <NodeId/>\r\n   </NodeIds>\r\n</NodeGroupNodeQuery>"
+				},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG/nodeGroups/RIT_NODE_GRP/nodes",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"RIT_INV_ORG",
+						"nodeGroups",
+						"RIT_NODE_GRP",
+						"nodes"
+					]
+				},
+				"description": "searches nodes by node group using XML formatted request"
+			},
+			"response": []
+		},
+		{
+			"name": "getInventoryOrganization",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"RIT_INV_ORG"
+					]
+				},
+				"description": "returns matching inventory org"
+			},
+			"response": []
+		},
+		{
+			"name": "getInventoryOrganizations",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations"
+					]
+				},
+				"description": "returns all inventory orgs"
+			},
+			"response": []
+		},
+		{
+			"name": "getNode",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodes/NodeInt007",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"nodes",
+						"NodeInt007"
+					]
+				},
+				"description": "get node by inventory org and node id"
+			},
+			"response": []
+		},
+		{
+			"name": "getNodeGroup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodeGroups/NodeGroupInt02",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"nodeGroups",
+						"NodeGroupInt02"
+					]
+				},
+				"description": "get node group by inventory org and node group id"
+			},
+			"response": []
+		},
+		{
+			"name": "getNodeGroups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodeGroups",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"nodeGroups"
+					]
+				},
+				"description": "get all node groups for an inventory org"
+			},
+			"response": []
+		},
+		{
+			"name": "getNodeTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/nodeTypes",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"nodeTypes"
+					]
+				},
+				"description": "Gets all node types."
+			},
+			"response": []
+		},
+		{
+			"name": "getStores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/stores",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"stores"
+					]
+				},
+				"description": "get all stores"
+			},
+			"response": []
+		},
+		{
+			"name": "getStore",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/stores/RITUS",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"stores",
+						"RITUS"
+					]
+				},
+				"description": "get a store by storeId"
+			},
+			"response": []
+		},
+		{
+			"name": "getProductClasses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/productClasses",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"productClasses"
+					]
+				},
+				"description": "gets all product classes"
+			},
+			"response": []
+		},
+		{
+			"name": "getUnitOfMeasures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/unitOfMeasures",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"unitOfMeasures"
+					]
+				},
+				"description": "gets all unit of measure"
+			},
+			"response": []
+		},
+		{
+			"name": "getCalendars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/calendars",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"calendars"
+					]
+				},
+				"description": "get all calendars for an inventory org"
+			},
+			"response": []
+		},
+		{
+			"name": "getCalendar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/calendars/shippingCalendarIntegration01?fromDate=2017-01-01&toDate=2017-12-31",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"calendars",
+						"shippingCalendarIntegration01"
+					],
+					"query": [
+						{
+							"key": "fromDate",
+							"value": "2017-01-01"
+						},
+						{
+							"key": "toDate",
+							"value": "2017-12-31"
+						}
+					]
+				},
+				"description": "Gets a calendars details within specified date range"
+			},
+			"response": []
+		},
+		{
+			"name": "getZoneIds",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/timeZoneIds",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"timeZoneIds"
+					]
+				},
+				"description": "returns all zone id's"
+			},
+			"response": []
+		},
+		{
+			"name": "getFulfillmentTypes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/fulfillmentTypes",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"fulfillmentTypes"
+					]
+				},
+				"description": "gets all fulfillment types"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteNodeType",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/nodeTypes/RIT_WHSE",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"nodeTypes",
+						"RIT_WHSE"
+					]
+				},
+				"description": "Deletes unused nodeType by ID"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteInventoryOrganization",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"RIT_INV_ORG"
+					]
+				},
+				"description": "deletes the specified inventory organization if not in use"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteNode",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/nodes/NodeInt001",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"nodes",
+						"NodeInt001"
+					]
+				},
+				"description": "deletes the specified node"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteNodeGroup",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/RIT_INV_ORG/nodeGroups/RIT_NODE_GROUP",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"RIT_INV_ORG",
+						"nodeGroups",
+						"RIT_NODE_GROUP"
+					]
+				},
+				"description": "deletes a node group or groups"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteStore",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/stores/RITUS",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"stores",
+						"RITUS"
+					]
+				},
+				"description": "deletes the specified store if it's unused"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteProductClass",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/productClasses/RITGOOD",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"productClasses",
+						"RITGOOD"
+					]
+				},
+				"description": "deletes specified product class"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteUnitOfMeasure",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/unitOfMeasures/RITEACH",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"unitOfMeasures",
+						"RITEACH"
+					]
+				},
+				"description": "deletes specified unit of measure"
+			},
+			"response": []
+		},
+		{
 			"name": "deleteCalendar",
-			"description": "deletes specified calendar if it's not being used",
-			"collectionId": "1e337bb0-8ab3-b83a-627c-b745c1fda536",
-			"responses": []
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{url_inventory_config_service}}/inventoryOrganizations/TMSNA_INV_ORG/calendars/shippingCalendarInt01",
+					"host": [
+						"{{url_inventory_config_service}}"
+					],
+					"path": [
+						"inventoryOrganizations",
+						"TMSNA_INV_ORG",
+						"calendars",
+						"shippingCalendarInt01"
+					]
+				},
+				"description": "deletes specified calendar if it's not being used"
+			},
+			"response": []
 		}
 	]
 }
